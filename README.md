@@ -18,5 +18,5 @@ Each sub folder has a `README.md` file with additional information about the tas
 * Push your work back to github
 * Create a pull request by clicking "New pull request" on https://github.com/[your-github-username]/rps, comparing changes with
     
-    base fork: tonywtao/codingfun|base: master <- head fork: [your-github-username]/codingfun|compare: master
+    base fork: tonywtao/rps|base: master <- head fork: [your-github-username]/rps|compare: master
     
