@@ -11,12 +11,12 @@ Each sub folder has a `README.md` file with additional information about the tas
 ## Steps to work on the the project
 * Register your account on github.com if you don't have one
 * Sign in your account on github.com
-* Go to https://github.com/tonywtao/codingfun in the same browser
+* Go to https://github.com/tonywtao/rps in the same browser
 * Click "Fork" button at top-right corner on the page
 * Then you can clone the project on you local computer
 * Work on the project
 * Push your work back to github
-* Create a pull request by clicking "New pull request" on https://github.com/[your-github-username]/codingfun, comparing changes with
+* Create a pull request by clicking "New pull request" on https://github.com/[your-github-username]/rps, comparing changes with
     
     base fork: tonywtao/codingfun|base: master <- head fork: [your-github-username]/codingfun|compare: master
     
