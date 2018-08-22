@@ -2,7 +2,6 @@ import random
 
 rps_choice = ['r', 'p', 's']
 
-
 def askInput():
     response = input('Type your input and press ENTER:\n')
     return response
@@ -12,19 +11,19 @@ def makeChoice():
     
 def decideWin(user, cpu):
     if(user==cpu):
-        print('Draw!')
+        return('Draw!')
     elif(user=='r' and cpu=='p'):
-        print('You lose!')
+        return('You lose!')
     elif(user=='r' and cpu=='s'):
-        print('You Win!')
+        return('You Win!')
     elif(user=='p' and cpu=='s'):
-        print('You Lose!')
+        return('You Lose!')
     elif(user=='p' and cpu=='r'):
-        print('You Win!')
+        return('You Win!')
     elif(user=='s' and cpu=='p'):
-        print('You Win!')
+        return('You Win!')
     elif(user=='s' and cpu=='r'):
-        print('You Lose!')
+        return('You Lose!')
     print('\n')
         
     
@@ -41,8 +40,8 @@ def main():
             cpu_choice = makeChoice()
             print('The CPU has made this choice: ', cpu_choice)
             print('\n')
-            decideWin(user_input, cpu_choice)
-
+            print(decideWin(user_input, cpu_choice))
+            print('\n')
 
 
 if __name__== "__main__":
